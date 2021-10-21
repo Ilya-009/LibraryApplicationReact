@@ -1,0 +1,57 @@
+.book-card-control-buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.books-table{
+    border: 1px solid #ccc;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.books-table tr{
+    width: 100%;
+    text-align: center;
+
+    border-bottom: 1px solid #ccc;
+}
+
+.books-table td{
+    padding: 15px;
+}
+
+.ctrl-btn{
+    margin-left: 10px;
+    padding: 8px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+.edit-btn{
+    background-color: #438700;
+}
+
+.edit-btn:hover{
+    background-color: #5ab100;
+}
+
+.remove-btn{
+    background-color: red;
+}
+
+.remove-btn:hover{
+    background-color: #9e2d00;
+}
+
+.create-book{
+    background-color: orange;
+    width: max-content;
+    margin: 0;
+    text-decoration: none;
+}
+
+.create-book:hover {
+    background-color: #ffb85a;
+}
